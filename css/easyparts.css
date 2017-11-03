@@ -1,0 +1,248 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-Sep-2017, 12:35:33
+    Author     : Brian Sabana
+*/
+
+/*
+Lighter theme color : #1b51b6
+Darker theme color : #1847a0
+*/
+.btn-primary, .btn-base {
+    background: #1b51b6;
+    color: #fff;
+}
+.navbar-top.parts{
+	padding-top:0px;
+	padding-bottom:0px;	
+	min-height:inherit;
+	height:30px; 
+	overflow-y:hidden;
+}
+.navbar.parts .navbar-nav li a{
+	padding-top: 20px;
+    padding-bottom: 6px;	
+}
+.navbar.parts .navbar-nav>li>a:focus, .navbar.parts .navbar-nav>li>a:hover {
+    background-color: transparent;
+    color: #fff;
+	text-shadow: #fff 0 0 20px;
+}
+.navbar.parts .navbar-nav > .open > a, .navbar.parts .navbar-nav > .open > a:hover, .navbar.parts .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #fff;
+	text-shadow: #fff 0 0 20px;
+}
+.navbar.parts .dropdown-menu li a {
+    padding: 12px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.search-bar-container{
+	margin-bottom:10px;	
+}
+
+.search-bar .form-group{
+	width:90%;	
+}
+.search-bar .btn{
+	width:9%;	
+}
+.search-bar-text{
+	display:inline-block !important;
+	width:100% !important;
+	height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.search-bar-text:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.search-bar .btn {
+    color: #fff;
+    background-color: #1b51b6;
+    border-color: #1847a0;
+	padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    font-weight: normal;
+    text-align: center;
+	display:inline-block;
+}
+
+/*Banner*/
+.section_banner.parts{
+	height:440px;	
+}
+
+.search-picker{
+	position:absolute;
+	top:13%;
+	right:120px;
+	left:auto;
+	z-index:1299;
+	
+	
+	background-color: #1b51b6; /*rgba(27,81,182,0.9);*/
+    width: 40%;	
+	padding: 6px 20px 6px 20px;
+	display:block;
+	
+}
+.search-picker .container{
+	width:100% !important;	
+}
+.search-picker [class*="col-"] {
+	padding-left:5px !important;
+	padding-right:5px !important;
+	margin-bottom:15px;
+}
+
+
+.search-picker .body{
+	display:block;	
+}
+.search-picker .header {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: left;
+	color: #fff;
+	padding: 8px 0 8px 4px;
+    text-transform: uppercase;
+}
+.search-picker .footer {
+    padding: 2px 0 8px 4px;
+}
+
+.search-picker select , .search-picker input {
+    padding: 6px 16px 6px 16px;
+    width: 100%;
+	color:#555;
+}
+.search-picker .btn {
+	padding: 13px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.panel-parts{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.panel-parts .owl-nav {
+    top: 18px;
+    right: 10px;
+    
+}
+
+.featured-category img{
+    width: 100%;
+    height: 130px;
+}
+.featured-category .img{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+}
+.featured-category .caption h3{
+    
+    margin: 0;
+    text-transform: capitalize;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+.featured-category .btn{
+    
+    padding: 4px 10px;
+    width: 100%;
+}
+.featured-category-cont{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.overlay_container.overlay_feature:after{
+    background: rgba(10,30,58,0.9) !important;
+}
+
+.feature_top_item{
+	display:inline-block;	
+	width:100%;
+}
+.feature_top_item img{
+	width:100%;
+	height:auto;
+}
+.feature_top_heading{
+margin:0 !important;
+margin-bottom:2px !important;
+font-size:18px !important;	
+}
+
+.feature_top_item a{
+	display:block;	
+}
+.feature_top_item a{
+	-webkit-transition:all .2s ease;	
+	-moz-transition:all .2s ease;
+	-ms-transition:all .2s ease;
+	-o-transition:all .2s ease;	
+	transition:all .2s ease;	
+}
+.feature_top_item a:hover{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25);	
+}
+
+/*Menu buttons*/
+.navbar-nav .dropdown-menu ul.mega-nav-ul li .menu_button {
+	background-color:transparent;
+	display: block;
+    padding: 4px 0;
+    color: #333;
+    text-decoration: none;
+	border:0px solid transparent;
+	cursor:pointer;
+	text-align:left;
+}
+
+.navbar-nav .dropdown-menu ul.mega-nav-ul li .menu_button:before {
+    font-family: 'FontAwesome';
+    float: left;
+    margin-right: 5px;
+    color: inherit;
+    content: "\f022";
+}
+
+
+[class*="col-"].product{
+    min-height:355px;
+}
